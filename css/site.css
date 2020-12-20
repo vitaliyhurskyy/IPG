@@ -1,4 +1,71 @@
-﻿ul{
+﻿
+header {
+    background-color: transparent;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+header img{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    left: -375px;
+}
+header h1{
+    position: relative;
+    bottom: 100px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.colum.tecnology{
+    width:50%;
+}
+.colum.language{
+    width:50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px){
+    .colum.tecnology, .colum.language{
+        width:100%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,4 +84,18 @@ ul li a{
 }
 ul li a:hover{
     background-color: #3a41e4;
+}
+.portfolioDiv{
+    width: 400px;
+    height: 100px;
+    column-count: 3;
+    column-width: 100px;
+    column-gap: 10px;
+
+}
+.imagemIndexDiv {
+    width: 100%;
+    height: 500px;
+    background-image: url('../Imagens/imagem_fundo1.jpg');
+    background-size: 100% 100%;
 }
