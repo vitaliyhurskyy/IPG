@@ -164,17 +164,57 @@ div button:hover {
     padding: 0 8px;
     color: #fff !important;
     background-color: #616161 !important;
+    text-align: center;
+   
 }
 .contactDivVis {
     padding-top: 24px !important;
     padding-bottom: 24px !important;
     text-align: center !important;
     padding: 0 8px;
+    margin: 0px;
 }
-@media screen and (min-width: 601px){
-.contactDiv, .terco{
-    width: 33.33333%;
+@media screen and (min-width: 601px) {
+    .contactDiv, .terco {
+        width: 30%;
+    }
 }
+.linha {
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.contactFormDiv {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+.contactImput {
+    border: 1px solid #ccc !important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.contactButtonEnviar {
+    color: #fff !important;
+    background-color: #000 !important;
+    margin-bottom: 16px !important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
 .imagemIndexDiv {
     width: 100%;

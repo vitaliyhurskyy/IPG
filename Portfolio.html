@@ -43,14 +43,18 @@
             </div>
         </div>
     </div>
-    <button class="buttonDownloadResume">Download Resume</button>
-
+    
+        <button class="buttonDownloadResume" onclick="location.href = '../IPG/portfolio/Curriculo.pdf'" >
+        Download Resume
+        </button>
+    
+    
     <div class="contactMeDiv">
         <h4><b>Contacta-me</b></h4>
         <div class="contactDiv">
             <div class="contactDivVis">
                 <p>
-                    <img src="../IPG/Imagens/email.png" width="25 height="25"/>
+                    <img src="../IPG/Imagens/email.png" width="25" height="25"/>
                 </p>
                 <p>
                     vitaliyhurskyy@gmail.com
@@ -73,7 +77,22 @@
                 </p>
             </div>
         </div>
-
+        <hr class="=linha" />
+        <form action="" target="_blank">
+            <div class="contactFormDiv">
+                <label>Nome</label>
+                <input class="contactImput" type="text" name="Nome" required />
+            </div>
+            <div class="contactFormDiv">
+                <label>Email</label>
+                <input class="contactImput" type="text" name="Email" required />
+            </div>
+            <div class="contactFormDiv">
+                <label>Mensagem</label>
+                <input class="contactImput" type="text" name="Mensagem" required />
+            </div>
+            <button type="submit" class="contactButtonEnviar">Enviar mensagem</button>
+        </form>
     </div>
 </body>
 </html>
