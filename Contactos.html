@@ -36,7 +36,7 @@
         </div>
     </nav>
     <!--Conteudo-->
-    <div class="row">
+    <div class="row" style="max-width: 100%; margin-left:1%; margin-right:1%;">
         <h1>Contacte-me</h1>
         <div class="row">
             <div class="col-md-4" style="text-align:center;">
@@ -67,21 +67,20 @@
         <hr class="linha" />
         <div class="row">
             <div class="col-md-6">
-                <form action="javascript:sendEmail()" method="get"
-                      name="EmailForm" accept-charset="ISO-8859-1" >
+                <form action="mailto:vitaliyhurskyy@gmail.com" method="post" >
                     <div class="contactFormDiv">
-                        <label for="Nome">Nome:</label>
-                        <input class="contactImput" type="text" name="Nome" required />
+                        <label >Email:</label>
+                        <input class="contactImput" type="text" name="Email" placeholder="Email" required />
                     </div>
                     <div class="contactFormDiv">
-                        <label for="Email">Email:</label>
-                        <input class="contactImput" type="text" name="Email" required />
+                        <label>Assunto:</label>
+                        <input class="contactImput" type="text" name="Assunto" placeholder="Assunto" required />
                     </div>
                     <div class="contactFormDiv">
                         <label for="Mensagem">Mensagem:</label>
-                        <textarea class="contactImput" type="text" name="Mensagem" required>Envie a sua mensagem.</textarea>
+                        <textarea class="contactImput" type="text" name="Mensagem" rows="4" placeholder="Envie a sua mensagem." required></textarea>
                     </div>
-                    <button type="button" value="submit" class="button" style="margin-bottom:10px;" onclick="sendEmail()">
+                    <button type="submit" value="Enviar Mensagem" class="button" style="margin-bottom:10px;">
                         Enviar mensagem
                     </button>
                 </form>

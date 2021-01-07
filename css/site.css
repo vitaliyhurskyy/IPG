@@ -3,20 +3,23 @@
 }
 
 .index-img {
+   
+    width:100%;
+    height:100%;
+    padding: 5px;
+}
+
+.cv-img {
+    max-width: 330px;
+    max-height: 330px;
     width: 100%;
     height: 100%;
     padding: 5px;
 }
 
-.cv-img {
-    width: 100%;
-    height: 90%;
-    padding: 5px;
-}
-
 .portfolioImg {
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 
 .portfolio-button {
